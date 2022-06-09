@@ -8,106 +8,114 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug"/>
+				<Option working_dir="E:/University/cpp projects/Jungle/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Jungle">
-				<Option output="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug/Jungle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug"/>
+				<Option output="E:/University/cpp projects/Jungle/cmake-build-debug/Jungle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/University/cpp projects/Jungle/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Jungle"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Jungle"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Jungle/fast">
-				<Option output="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug/Jungle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug"/>
+				<Option output="E:/University/cpp projects/Jungle/cmake-build-debug/Jungle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/University/cpp projects/Jungle/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Jungle/fast"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Jungle/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug"/>
+				<Option working_dir="E:/University/cpp projects/Jungle/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/d/Ocam\ \ -\ Term\ 6/TA\ AP/HW5/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/University/cpp projects/Jungle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/University/cpp projects/Jungle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/Animal.cpp">
+		<Unit filename="E:/University/cpp projects/Jungle/Animal.cpp">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/Animal.h">
+		<Unit filename="E:/University/cpp projects/Jungle/Animal.h">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/DomesticAnimal.cpp">
+		<Unit filename="E:/University/cpp projects/Jungle/DomesticAnimal.cpp">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/DomesticAnimal.h">
+		<Unit filename="E:/University/cpp projects/Jungle/DomesticAnimal.h">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/Jungle.cpp">
+		<Unit filename="E:/University/cpp projects/Jungle/Jungle.cpp">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/Jungle.h">
+		<Unit filename="E:/University/cpp projects/Jungle/Jungle.h">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/WildAnimal.cpp">
+		<Unit filename="E:/University/cpp projects/Jungle/Pet.cpp">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/WildAnimal.h">
+		<Unit filename="E:/University/cpp projects/Jungle/Pet.h">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/main.cpp">
+		<Unit filename="E:/University/cpp projects/Jungle/WildAnimal.cpp">
 			<Option target="Jungle"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/CMakeLists.txt">
+		<Unit filename="E:/University/cpp projects/Jungle/WildAnimal.h">
+			<Option target="Jungle"/>
+		</Unit>
+		<Unit filename="E:/University/cpp projects/Jungle/main.cpp">
+			<Option target="Jungle"/>
+		</Unit>
+		<Unit filename="E:/University/cpp projects/Jungle/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

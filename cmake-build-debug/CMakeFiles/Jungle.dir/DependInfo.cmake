@@ -1,19 +1,19 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/Animal.cpp" "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug/CMakeFiles/Jungle.dir/Animal.cpp.o"
-  "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/DomesticAnimal.cpp" "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug/CMakeFiles/Jungle.dir/DomesticAnimal.cpp.o"
-  "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/Jungle.cpp" "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug/CMakeFiles/Jungle.dir/Jungle.cpp.o"
-  "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/WildAnimal.cpp" "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug/CMakeFiles/Jungle.dir/WildAnimal.cpp.o"
-  "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/main.cpp" "/cygdrive/d/Ocam  - Term 6/TA AP/HW5/Jungle/cmake-build-debug/CMakeFiles/Jungle.dir/main.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/University/cpp projects/Jungle/Animal.cpp" "CMakeFiles/Jungle.dir/Animal.cpp.obj" "gcc" "CMakeFiles/Jungle.dir/Animal.cpp.obj.d"
+  "E:/University/cpp projects/Jungle/DomesticAnimal.cpp" "CMakeFiles/Jungle.dir/DomesticAnimal.cpp.obj" "gcc" "CMakeFiles/Jungle.dir/DomesticAnimal.cpp.obj.d"
+  "E:/University/cpp projects/Jungle/Jungle.cpp" "CMakeFiles/Jungle.dir/Jungle.cpp.obj" "gcc" "CMakeFiles/Jungle.dir/Jungle.cpp.obj.d"
+  "E:/University/cpp projects/Jungle/Pet.cpp" "CMakeFiles/Jungle.dir/Pet.cpp.obj" "gcc" "CMakeFiles/Jungle.dir/Pet.cpp.obj.d"
+  "E:/University/cpp projects/Jungle/WildAnimal.cpp" "CMakeFiles/Jungle.dir/WildAnimal.cpp.obj" "gcc" "CMakeFiles/Jungle.dir/WildAnimal.cpp.obj.d"
+  "E:/University/cpp projects/Jungle/main.cpp" "CMakeFiles/Jungle.dir/main.cpp.obj" "gcc" "CMakeFiles/Jungle.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
